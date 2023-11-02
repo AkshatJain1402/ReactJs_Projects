@@ -4,7 +4,7 @@ import { FireBase_Initializer } from "./FirebaseConfig";
 import { useNavigate } from "react-router-dom";
 
 import { UpDateData, saveData, setData } from "./CRUD_Firebase";
-
+import "./SignUp.css";
 const auth = getAuth(FireBase_Initializer);
 export default function SignUp({ setuserData }) {
   const navigate = useNavigate();
@@ -46,27 +46,35 @@ export default function SignUp({ setuserData }) {
       });
   };
   return (
-    <div>
-      <div>
+    <div className="parentContainer">
+      <div
+        className="SignUP-container"
+        style={{ height: "500px", borderStyle: "solid" }}
+      >
+        <h2>SignUp</h2>
         <input
+          className="SignUpinputField"
           placeholder="Your First Name"
           onChange={(FirstName) => {
             setUserFirstName(FirstName.target.value);
           }}
         />
         <input
+          className="SignUpinputField"
           placeholder="Your Last Name"
           onChange={(LastName) => {
             setUserLastName(LastName.target.value);
           }}
         />
         <input
+          className="SignUpinputField"
           placeholder="Personal Number"
           onChange={(number) => {
             setUserNumber(number.target.value);
           }}
         />
         <input
+          className="SignUpinputField"
           placeholder="Enter your Email"
           value={email}
           onChange={(email) => {
@@ -74,14 +82,17 @@ export default function SignUp({ setuserData }) {
           }}
         />
         <input
+          className="SignUpinputField"
           placeholder="Enter Your Password"
           value={password}
           onChange={(pass) => {
             setPassword(pass.target.value);
           }}
         />
+        <button className="button" onClick={CreateUser}>
+          SignUp
+        </button>
       </div>
-      <button onClick={CreateUser}>SignUp</button>
     </div>
   );
 }

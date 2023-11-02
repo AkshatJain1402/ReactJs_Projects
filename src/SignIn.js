@@ -4,6 +4,8 @@ import { FireBase_Initializer } from "./FirebaseConfig";
 import { Link, useNavigate } from "react-router-dom";
 import { getData, setData } from "./CRUD_Firebase";
 import { child, get, getDatabase, ref } from "firebase/database";
+import "./SignIn.css";
+
 const auth = getAuth(FireBase_Initializer);
 const database = getDatabase(FireBase_Initializer);
 
@@ -36,23 +38,37 @@ export default function SignIn({ setSignInStatus, setUserData }) {
       });
   };
   return (
-    <div>
-      LogIn
-      <input
-        placeholder="email"
-        value={email}
-        onChange={(email) => {
-          setEmail(email.target.value);
-        }}
-      />
-      <input
-        placeholder="pass"
-        value={pass}
-        onChange={(pass) => {
-          setPassword(pass.target.value);
-        }}
-      />
-      <button onClick={SignIn}>signin</button>
+    <div
+      style={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        height: "100vh",
+      }}
+    >
+      <div className="container">
+        <h2>Login</h2>
+        <input
+          className="inputField"
+          placeholder="email"
+          value={email}
+          onChange={(email) => {
+            setEmail(email.target.value);
+          }}
+        />
+        <input
+          className="inputField"
+          placeholder="pass"
+          value={pass}
+          onChange={(pass) => {
+            setPassword(pass.target.value);
+          }}
+        />
+        <button className="button" onClick={SignIn}>
+          signin
+        </button>
+      </div>
       {errors ? (
         <div>
           <p>{errors}</p> <Link to="/SignUp">SignUP?</Link>
