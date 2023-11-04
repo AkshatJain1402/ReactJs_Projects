@@ -3,10 +3,10 @@ import { FireBase_Initializer } from "./FirebaseConfig";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { onAuthStateChanged, getAuth } from "firebase/auth";
 import SignIn from "./SignIn";
-import SignOutUser from "./SignOut";
+
 import SignUp from "./SignUp";
 import Home from "./Home";
-import { UpDateData, getData, saveData, setData } from "./CRUD_Firebase";
+
 import { getDatabase } from "firebase/database";
 const db = getDatabase(FireBase_Initializer);
 const auth = getAuth(FireBase_Initializer);
@@ -59,20 +59,6 @@ export default function App() {
           <Route path="/Home" element={<Home userData={userData} />} />
         </Routes>
       </BrowserRouter>
-      <button
-        onClick={() => {
-          setData(userData);
-        }}
-      >
-        set
-      </button>
-      <button
-        onClick={() => {
-          getData(userData.Uid);
-        }}
-      >
-        get
-      </button>
     </div>
   );
 }

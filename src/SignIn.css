@@ -1,24 +1,28 @@
-.container1 {
-  display: flex;
-  flex-direction: column;
-  flex: 1;
-  align-self: center;
-  justify-content: center;
-}
-
 .inputField {
   width: 150px;
   border-radius: 20px;
-  border-bottom: 1px;
-  border-style: solid;
+  border-bottom: 3px;
+  border-style: inset;
   border-top: 0px;
   border-left: 0px;
   border-right: 0px;
   margin: 20px;
   padding: 3px;
-  height: 10px;
+  height: 20px;
   font-size: large;
   font-family: sans-serif;
+  transition: border-color 1s, box-shadow 0.3s;
+}
+
+/* Input field on hover */
+.inputField:hover {
+  border-color: #999;
+}
+
+/* Input field when focused */
+.inputField:focus {
+  border-color: #007bff; /* Change border color when focused */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Add a subtle box shadow */
 }
 .button {
   width: 150px;

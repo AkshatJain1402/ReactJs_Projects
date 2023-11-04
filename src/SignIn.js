@@ -47,7 +47,7 @@ export default function SignIn({ setSignInStatus, setUserData }) {
         height: "100vh",
       }}
     >
-      <div className="container">
+      <div className="container1">
         <h2>Login</h2>
         <input
           className="inputField"
@@ -73,9 +73,7 @@ export default function SignIn({ setSignInStatus, setUserData }) {
         <div>
           <p>{errors}</p> <Link to="/SignUp">SignUP?</Link>
         </div>
-      ) : (
-        <p>no error</p>
-      )}
+      ) : null}
     </div>
   );
 }
