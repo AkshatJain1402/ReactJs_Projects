@@ -1,0 +1,11 @@
+.sidebarContainer {
+  width: 7%;
+  height: 100%;
+}
+.noteColor {
+  border-radius: 100%;
+  margin: 10px;
+  width: 35px;
+  height: 35px;
+  border-width: 0;
+}
