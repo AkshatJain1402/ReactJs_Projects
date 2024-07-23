@@ -1,0 +1,17 @@
+.mainContainerNav {
+  display: flex;
+  flex-direction: row;
+
+  padding: 20px;
+  background-color: #1a1a1a;
+  color: white;
+  height: 60px;
+}
+#navDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  width: 100%;
+}
+

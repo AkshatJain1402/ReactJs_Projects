@@ -1,0 +1,30 @@
+.stickyFooter {
+  left: 0;
+  bottom: 0;
+  display: flex;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(84, 84, 84);
+
+  flex-direction: row;
+  padding: 20px;
+
+  color: white;
+}
+#contactDiv {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end; /* Add this line */
+  align-content: flex-end;
+  width: 100%;
+
+  margin-right: 10%;
+}
+#iconsFP {
+  color: white;
+  display: flex;
+  flex-direction: row;
+
+  margin-left: 10%;
+}

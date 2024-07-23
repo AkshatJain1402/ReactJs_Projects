@@ -1,0 +1,44 @@
+#busCard {
+  padding: 15px;
+  width: 20rem;
+  margin: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s;
+  height: 18rem;
+  background-color: rgb(62, 93, 121);
+  border-radius: 10px;
+}
+#busRoutes {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#busCard :hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+#editButtonCard {
+  background-color: transparent;
+  justify-self: center;
+  width: 80px;
+  height: 30px;
+  font-size: 20px;
+}
+.busDetails {
+  background-color: transparent;
+  color: white;
+  height: 25px;
+  border-color: transparent;
+  width: 50px;
+  border-radius: 5px;
+}
+
+#cardBtn {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+}
