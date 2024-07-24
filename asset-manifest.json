@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/github.io/ReactJs_Projects/static/css/main.18ca2a87.css",
+    "main.js": "/github.io/ReactJs_Projects/static/js/main.0cb00315.js",
+    "static/js/453.96bb3fd6.chunk.js": "/github.io/ReactJs_Projects/static/js/453.96bb3fd6.chunk.js",
+    "static/media/aktuLogo.png": "/github.io/ReactJs_Projects/static/media/aktuLogo.5e71e00b038af7ca16f0.png",
+    "static/media/result1.png": "/github.io/ReactJs_Projects/static/media/result1.06edf16480490f10333a.png",
+    "static/media/aktuBG.png": "/github.io/ReactJs_Projects/static/media/aktuBG.4f6fc7b38af80da1ed1b.png",
+    "static/media/sem2.png": "/github.io/ReactJs_Projects/static/media/sem2.34c9589ac6f21a800b20.png",
+    "static/media/sem4.png": "/github.io/ReactJs_Projects/static/media/sem4.8c4fb4993fa8148c26c5.png",
+    "static/media/sem3.png": "/github.io/ReactJs_Projects/static/media/sem3.233f0d0288869e0607a1.png",
+    "static/media/studentInfo.png": "/github.io/ReactJs_Projects/static/media/studentInfo.8351812e181794178327.png",
+    "static/media/sem1Result.png": "/github.io/ReactJs_Projects/static/media/sem1Result.d9ec5d9ab0f340176fc5.png",
+    "static/media/sem2Results.png": "/github.io/ReactJs_Projects/static/media/sem2Results.c0efec42620234a7f1c3.png",
+    "static/media/mooc.png": "/github.io/ReactJs_Projects/static/media/mooc.4ebf0311985ca2615363.png",
+    "static/media/logo.svg": "/github.io/ReactJs_Projects/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/github.io/ReactJs_Projects/index.html",
+    "main.18ca2a87.css.map": "/github.io/ReactJs_Projects/static/css/main.18ca2a87.css.map",
+    "main.0cb00315.js.map": "/github.io/ReactJs_Projects/static/js/main.0cb00315.js.map",
+    "453.96bb3fd6.chunk.js.map": "/github.io/ReactJs_Projects/static/js/453.96bb3fd6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.18ca2a87.css",
+    "static/js/main.0cb00315.js"
+  ]
+}
