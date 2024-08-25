@@ -1,0 +1,28 @@
+#mainContainerExc {
+  display: flex;
+  flex-direction: row;
+  background-color: aliceblue;
+  margin-left: 100px;
+  margin-top: 100px;
+  height: 250px;
+  width: 80%;
+  overflow: scroll;
+  padding: 10px;
+}
+#mainContainerExc section ul {
+  margin-right: 20px;
+  list-style: none;
+}
+#mainContainerExc section ul li {
+  margin-bottom: 10px;
+}
+#mainContainerExc section {
+  margin-right: 100px;
+}
+
+#schoolList {
+  width: max-content;
+}
+#schoolList h1 {
+  margin-left: 40px;
+}
